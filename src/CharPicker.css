@@ -1,0 +1,33 @@
+select {
+  font: inherit;
+  appearance: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0;
+}
+
+select.light {
+  margin-top: 213px;
+  margin-bottom: 13px;
+  margin-left: 928px;
+  border: 2px solid #015c91;
+  background: #b4e1fc;
+  color: #015c91;
+}
+
+.zoo {
+  margin-top: 213px;
+  margin-bottom: 13px;
+  margin-left: 928px;
+}
+select.dark {
+  margin-top: 213px;
+  margin-bottom: 13px;
+  margin-left: 928px;
+  border: 2px solid #880617;
+  background: #f88493;
+  color: #924c55;
+}
+
+select:focus {
+  outline: none;
+}
